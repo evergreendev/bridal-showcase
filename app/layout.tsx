@@ -50,7 +50,7 @@ export default function RootLayout({
             <nav aria-label="Primary" className="hidden sm:flex gap-6 text-sm font-medium">
               <a href="#dates" className="hover:text-pink-700">Dates</a>
               <a href="#fashion" className="hover:text-pink-700">Vendors & Prizes</a>
-              <a href="#tickets" className="hover:text-pink-700">Buy Tickets</a>
+              <a href="https://www.eventbrite.com/e/1762416438009?aff=oddtdtcreator" className="hover:text-pink-700">Buy Tickets</a>
             </nav>
           </div>
         </header>
@@ -64,7 +64,7 @@ export default function RootLayout({
             <div className="flex gap-6">
               <Link className="hover:text-pink-700" href="#dates">Dates</Link>
               <Link className="hover:text-pink-700" href="#fashion">Vendors & Prizes</Link>
-              <Link className="hover:text-pink-700" href="#tickets">Tickets</Link>
+              <Link className="hover:text-pink-700" href="https://www.eventbrite.com/e/1762416438009?aff=oddtdtcreator">Tickets</Link>
             </div>
           </div>
         </footer>
