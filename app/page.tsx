@@ -56,7 +56,7 @@ export default function Home() {
             <div className="mt-4 space-y-4 text-zinc-700 max-w-prose">
               <p>The Bridal Showcase gives brides-to-be and grooms the opportunity to meet the professionals in the BH who help make their event memorable.</p>
               <p>The 2026 Bridal Showcase in Rapid City gives brides-to-be and grooms the opportunity to meet the professionals who help make their event memorable. This annual event features photographers, florists, DJs, hotel and reception facility coordinators, jewelry professionals, wedding planners and officiants, beauty and makeup experts, and more.</p>
-              <p>Whether you're planning your wedding or organizing a special event, the Bridal Showcase professionals can customize your experience to ensure your special day is anything but ordinary!</p>
+              <p>Whether you&#39;re planning your wedding or organizing a special event, the Bridal Showcase professionals can customize your experience to ensure your special day is anything but ordinary!</p>
             </div>
             <div className="mt-8">
               <h3 className="text-xl font-semibold text-pink-800">Event Date & Location</h3>

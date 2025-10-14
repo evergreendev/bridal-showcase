@@ -62,9 +62,9 @@ export default function RootLayout({
               <span>© {new Date().getFullYear()} Bridal Showcase</span>
             </div>
             <div className="flex gap-6">
-              <a className="hover:text-pink-700" href="#dates">Dates</a>
-              <a className="hover:text-pink-700" href="#fashion">Vendors & Prizes</a>
-              <a className="hover:text-pink-700" href="#tickets">Tickets</a>
+              <Link className="hover:text-pink-700" href="#dates">Dates</Link>
+              <Link className="hover:text-pink-700" href="#fashion">Vendors & Prizes</Link>
+              <Link className="hover:text-pink-700" href="#tickets">Tickets</Link>
             </div>
           </div>
         </footer>
