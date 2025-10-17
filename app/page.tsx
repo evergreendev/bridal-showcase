@@ -114,14 +114,15 @@ export default function Home() {
             <h2 className="text-3xl font-semibold text-pink-800">See the Magic</h2>
             <p className="mt-4 text-zinc-700 max-w-prose">A glimpse of the romance and inspiration you can expect at the Bridal Showcase.</p>
             <div className="mt-6 aspect-video rounded-2xl overflow-hidden shadow ring-1 ring-pink-200 bg-pink-100">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/5YOTu5m5H2k?rel=0"
-                title="Bridal Showcase Highlights"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              />
+
+                <video
+                    className="w-full h-full"
+                    controls
+                    poster="/logo.jpg"
+                >
+                    <source src="/media/bridal-showcase-2024.mp4" type="video/mp4"/>
+                    Your browser does not support the video tag.
+                </video>
             </div>
           </div>
 {/*
