@@ -9,6 +9,7 @@ import img4158 from "../public/images/IMG_4158.jpg";
 import img7972 from "../public/images/IMG_7972.jpg";
 import img7973 from "../public/images/IMG_7973.jpg";
 import img7975 from "../public/images/IMG_7975.jpg";
+import crowd from "../public/images/crowd.jpeg";
 
 const TICKET_URL = "https://www.eventbrite.com/e/1762416438009?aff=oddtdtcreator";
 
@@ -99,6 +100,7 @@ export default function Home() {
                   <li>Grooms — register at the door for a <strong>50&quot; LED 4K Smart Fire TV</strong>. <em>(Must be present to win)</em></li>
                 </ul>
                 <p className="mt-2">Other drawings include gift baskets, dinner reservations, overnight hotel stays, gift cards, and more. Your online registration automatically enters you in the drawings.</p>
+                  <Image src={crowd} alt="Crowd enjoying the Bridal Showcase" className="w-full h-auto lg:max-w-md mt-8 rounded-2xl shadow ring-1 ring-pink-200 bg-pink-50" />
               </div>
             </div>
           </div>
@@ -125,9 +127,6 @@ export default function Home() {
                 </video>
             </div>
           </div>
-{/*
-          <Image src={gallery[7]} alt="Bridal showcase ambiance" className="w-full h-auto lg:max-w-md mx-auto rounded-2xl shadow ring-1 ring-pink-200 bg-pink-50" />
-*/}
         </div>
       </section>
 
