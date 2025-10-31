@@ -57,7 +57,7 @@ export default function Home() {
             {/* Overview & Dates (combined) */}
             <section id="dates" className="scroll-mt-24 bg-white">
                 <Image src={crowd} alt="Crowd enjoying the Bridal Showcase"
-                                                                                         className="h-auto mx-auto"/>
+                       className="h-auto mx-auto"/>
                 <div className="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
                     <Image src={gallery[0]} alt="Bridal Showcase overview"
                            className="w-full h-auto lg:max-w-md mx-auto rounded-2xl shadow ring-1 ring-pink-200 bg-pink-50"
@@ -96,8 +96,9 @@ export default function Home() {
                             <p>(Attendees 16 yrs of age and older will need a ticket)</p>
 
                             <div>
-                                <p className="font-bold">Upgraded-ticket <strong>$8.00</strong> includes general admission and a drink ticket
-                            </p>
+                                <p className="font-bold">Upgraded-ticket <strong>$8.00</strong> includes general
+                                    admission and a drink ticket
+                                </p>
                                 <p>*Great Value, online only, Limited Availability!</p>
                             </div>
 
@@ -143,11 +144,12 @@ export default function Home() {
                                         Riddle&#39;s Jewelry.
                                     </li>
                                     <li>Grooms — register at the door for a <strong>50&quot; LED 4K Smart Fire
-                                        TV</strong>. </li>
+                                        TV</strong>.
+                                    </li>
                                 </ul>
-                                <p className="mt-2">Other drawings include gift baskets, dinner reservations, overnight
-                                    hotel stays, gift cards, and more. Your online registration automatically enters you
-                                    in the drawings.</p>
+                                <p className="mt-2">Thousands of dollars of prize drawings including gift baskets,
+                                    dinner reservations, overnight hotel stays, gift cards, and more. Your online
+                                    registration automatically enters you in the drawings.</p>
                             </div>
                         </div>
                     </div>
