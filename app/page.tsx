@@ -134,7 +134,7 @@ export default function Home() {
                     <div>
                         <h2 className="text-3xl font-semibold text-pink-800">Highlights: Fashion Show & Prizes</h2>
                         <div className="mt-4 space-y-4 text-zinc-700 max-w-prose">
-                            <p><strong>Fashion Show at 1 PM and 3 PM</strong> — Be inspired by the latest bridal attire
+                            <p><strong>Fashion Show at 1:00 PM and 3:00 PM</strong> — Be inspired by the latest bridal attire
                                 as it takes the runway.</p>
                             <div>
                                 <p className="font-semibold text-pink-800">Prizes & Giveaways</p>
