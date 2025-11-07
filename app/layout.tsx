@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -45,6 +46,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-pink-50 text-zinc-800`}>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-M2GF8J6833" strategy="afterInteractive" />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-M2GF8J6833');
+          `}
+        </Script>
         <header className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/90 border-b border-pink-200">
           <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-center text-black">
             <nav aria-label="Primary" className="hidden sm:flex gap-6 text-sm font-medium">
