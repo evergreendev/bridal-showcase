@@ -10,6 +10,7 @@ import img7972 from "../public/images/IMG_7972.jpg";
 import img7973 from "../public/images/IMG_7973.jpg";
 import img7975 from "../public/images/IMG_7975.jpg";
 import crowd from "../public/images/crowd.jpg";
+import sponsorsData from "../data/sponsors.json";
 
 const TICKET_URL = "https://www.eventbrite.com/e/1762416438009?aff=oddtdtcreator";
 
@@ -176,6 +177,21 @@ export default function Home() {
                                 Your browser does not support the video tag.
                             </video>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+
+            {/* Sponsors */}
+            <section id="sponsors" className="scroll-mt-24 bg-pink-50/50">
+                <div className="max-w-6xl mx-auto px-4 py-16">
+                    <h2 className="text-3xl font-semibold text-pink-800 text-center mb-12">Sponsors</h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {sponsorsData.map((sponsor, index) => (
+                            <div key={index} className="bg-white p-6 rounded-xl shadow-sm border border-pink-100 flex items-center justify-center text-center hover:shadow-md transition-shadow">
+                                <span className="text-zinc-700 font-medium">{sponsor.businessName}</span>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>
